@@ -1,4 +1,4 @@
-#i wrote this code in pycharm and pasted it here to check along the way for errors in my code
+#i wrote this code in pycharm to check along the way for errors in my code
 
 #set variables
 pet_type = "snake"
