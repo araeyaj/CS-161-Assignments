@@ -1,0 +1,29 @@
+pet_type = "snake"
+pet_name = "Luna"
+
+print(f"I have a {pet_type} and her name is {pet_name}")
+
+
+user_name = input("Enter your first name: ")
+user_age = int(input("Enter your current age: "))
+user_savings = int(input("Enter your yearly savings: "))
+
+age = user_age
+
+print(f"Hello {user_name}! You are currently {user_age} years old.")
+print(f"In 15 years you will be {user_age + 15}.")
+print(f"After saving ${user_savings} for 5 years, you will have ${user_savings * 5}.")
+print(f"Your average monthly savings is ${user_savings // 12}.")
+
+
+january_days = 31
+
+january_seconds = 31 * 24 * 60 * 60
+
+print (f"The number of seconds in January is: {january_seconds}.")
+
+
+eggs = int(input("Enter the number of eggs: "))
+remainder = eggs % 12
+
+print(f"This makes {eggs//12} dozen eggs with {remainder} left over")
